@@ -74,7 +74,7 @@ export function useGeolocation() {
         return;
       }
       const script = document.createElement('script');
-      script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyDPs9o6JtFAA8xTQ8aNkPK6YHdc3Of1eaM`;
+      script.src = `https://maps.googleapis.com/maps/api/js?key=`;
       script.async = true;
       script.defer = true;
       script.onload = () => {
